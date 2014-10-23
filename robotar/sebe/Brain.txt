@@ -1,0 +1,6 @@
+//<Antal> GO <Grader>
+//<Antal> SENSOR <Grader>
+//TIME
+
+50 GO 0
+10 SENSOR 0
