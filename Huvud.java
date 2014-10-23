@@ -13,6 +13,8 @@ import java.awt.image.BufferStrategy;
 
 import javax.swing.JFrame;
 
+import java.lang.Thread;
+
 public class Huvud
 {
     Spel frame;
@@ -20,7 +22,10 @@ public class Huvud
     public Huvud()
     {
         Startruta start = new Startruta();
-        while(!start.getStartad()){}
+        System.out.println("A");
+        //while(!start.getStartad()){}
+        while(!start.getStartad()){try{Thread.sleep(1);}catch(InterruptedException e){}}
+        System.out.println("B");
         start.destroy();
         frame = new Spel();
         initiera();
