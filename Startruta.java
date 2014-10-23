@@ -44,7 +44,7 @@ public class Startruta extends JFrame
         version = new JLabel("Version 1.5");
         cred = new JLabel("Credits: Sebastian Olsson, NV07A; Niclas Andersson, NV0XX");
         kontroller = new JLabel("Kontroller:");
-        kontroller1 = new JLabel("+: Ökad FPS");
+        kontroller1 = new JLabel("+: Ã–kad FPS");
         kontroller2 = new JLabel("-: Minskad FPS");
         kontroller3 = new JLabel("P: Paus");
         kontroller4 = new JLabel("R: Omstart");
@@ -87,7 +87,7 @@ public class Startruta extends JFrame
     {
         if(e.getSource() == starta)
         {
-            System.out.println("Knappen funkar?");
+            System.out.println("Knappen funkar?"+startad);
             startad = true;
         }
         else

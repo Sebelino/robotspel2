@@ -37,7 +37,7 @@ public class ImageUtil {
 	 * @param ref
 	 * @return
 	 */
-	public static BufferedImage loadImage(String ref) {           //Note: Kan ha problem. Anv‰nd isf makeColorTransparent().
+	public static BufferedImage loadImage(String ref) {           //Note: Kan ha problem. Anv√§nd isf makeColorTransparent().
 		BufferedImage bimg = null;
 		try {
 

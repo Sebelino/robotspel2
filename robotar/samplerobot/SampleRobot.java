@@ -1,7 +1,7 @@
 /*
-Den här spelarklassen är hjärnan för en provrobot, med syfte att demonstrera en robots fulla potential.
+Den hÃ¤r spelarklassen Ã¤r hjÃ¤rnan fÃ¶r en provrobot, med syfte att demonstrera en robots fulla potential.
 
-Cooldown för redskapen står i Consts.java.
+Cooldown fÃ¶r redskapen stÃ¥r i Consts.java.
 */
 
 package robotspel2.robotar.samplerobot;
