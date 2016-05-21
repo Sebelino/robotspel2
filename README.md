@@ -10,14 +10,14 @@ Unfortunately, the plans were scrapped by the time the game engine was completed
 
 ## Install
 ```
-javac -cp .;.. *.java  # For Windows
-javac -cp .:.. *.java  # For *NIX
+> javac -cp .;.. *.java  # For Windows
+$ javac -cp .:.. *.java  # For *NIX
 ```
 
 ## Run
 ```
-java -cp .;.. robotspel2.Robotspel2  # For Windows
-java -cp .:.. robotspel2.Robotspel2  # For *NIX
+> java -cp .;.. robotspel2.Robotspel2  # For Windows
+$ java -cp .:.. robotspel2.Robotspel2  # For *NIX
 ```
 
 ## Gameplay
